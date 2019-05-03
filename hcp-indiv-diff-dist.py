@@ -6,7 +6,7 @@ from os.path import join, exists
 from nilearn.mass_univariate import permuted_ols
 from nilearn.input_data import NiftiMasker
 
-def jili_sidak_mc(data, alpha):
+def liji_sidak_mc(data, alpha):
     import math
     import numpy as np
 
